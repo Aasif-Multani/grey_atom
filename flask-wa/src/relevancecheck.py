@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-__author__ = "Ankan Roy"
+__author__ = "Aasif Multani"
 
 """
 relevanceCheck.py

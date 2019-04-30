@@ -24,7 +24,6 @@ app = Flask(__name__) # Flask app init
 # Flask app configurations
 app.config['SECRET_KEY'] = "asdjfkn2k4n2k3n4&FASghDV*^(SAD"
 app.config['MONGO_URI'] = "mongodb://localhost:27017/local" # local
-# app.config['MONGO_URI'] = "mongodb://localhost:27017/new" #docker
 
 mongo = PyMongo(app) # Mongo db object init
 
@@ -57,4 +56,4 @@ def about():
 
 # Run Flask App
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=80, debug=True)
