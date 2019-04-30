@@ -15,6 +15,10 @@ import pandas as pd
 from pymongo import MongoClient
 from mongodbcreate import MongoDBCreate
 
+# Cleaning the file
+QA_dataset = "../../../qa_Beauty.json/qa_Beauty.json"
+Commonutils.cleanJson(QA_dataset)
+
 # Path to the datasets
 QA_dataset_path = "newFile.json"
 review_dataset_path = "../../../reviews_Beauty_5.json/Beauty_5.json"

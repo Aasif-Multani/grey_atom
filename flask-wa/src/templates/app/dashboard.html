@@ -54,11 +54,11 @@
                     <div class="card-header" role="tab" id="heading{{loop.index}}">
                       <h5 class="mb-0">
                         <a data-toggle="collapse" data-parent="#accordion" href="#collapse{{loop.index}}" aria-expanded="true" aria-controls="collapse{{loop.index}}">
-                            <h4>Review - {{ loop.index }} <strong>Sentiment - </strong> {% if output.review_sentiments[loop.index0] == "positive" %}
-                            <span id="pos"> {{ output.review_sentiments[loop.index0] }}</span>
+                          <br>  <h4>Review - {{ loop.index }} <strong>Sentiment - </strong> {% if output.review_sentiments[loop.index0] == "positive" %}
+                            <span id="pos"> {{ output.review_sentiments[loop.index0] }}</span><br>
 
                         {% elif output.review_sentiments[loop.index0] == "negative" %}
-                            <span id="neg">{{ output.review_sentiments[loop.index0] }}</span>
+                            <span id="neg">{{ output.review_sentiments[loop.index0] }}</span><br>
                         {% endif %}
                             <strong>Relevance Score - </strong> {{ output.rvRelScore[loop.index0] }} </h4>
                         </a>

@@ -9,6 +9,8 @@ $ virtualenv -p python3 .
 $ source bin/activate
 $ cd src 
 $ pip install -r requirements.txt
+$ python initialise.py # used to initialise all the datasets in mongodb and
+other processing when sever starts.
 $ python server.py
 ``` 
 
