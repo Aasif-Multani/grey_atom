@@ -1,16 +1,6 @@
-## Welcome to Fractal Hiring Challenge Dec'17
-
-Team Awesome #1
-
-Participants -
-
-1. Rohan Damodar
-2. Ankan Roy
-3. Vinod Boga
-4. Nikhil Akki
+## Welcome to Grey Atom Challenge
 
 
-            
 ### Problem statement: 
 
 Build a web application for Q&A on beauty products, which are sold on Amazon. This application would be used by any user for finding out the best answer’s and supporting critical reviews related to merchandising product functionalities. The problem statement would be: given a query on product functionalities find out the most relevant (top-3) reviews that are most relevant to the query and answers yet give a different perspective to the answer. That is, if the existing answer is saying positive about the product, the reviews must bring the complementary view points on the product and its functionalities. Currently the Q&A database contains few queries and their answers, the intention for this task is to 
